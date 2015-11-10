@@ -23,4 +23,15 @@ Vagrant.configure("2") do |config|
   # bundle install
   # sudo apt-get install postgresql-9.3 postgresql-server-dev-9.3 (missing pg dependencies)
   # bundle install
+
+  # https://github.com/nodesource/distributions
+  # Install execjs dependencies
+  # curl -sL https://deb.nodesource.com/setup_0.10 | sudo -E bash -
+  # sudo apt-get install -y nodejs
+
+  # edited /etc/.../pg_hba.conf
+  # sudo pico /etc/postgresql/9.3/main/pg_hba.conf
+  # restarted postgresql
+  # sudo /etc/init.d/postgresql restar
+  # however, need to figure out local db setup
 end
