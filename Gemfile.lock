@@ -1,15 +1,15 @@
 GIT
-  remote: git://github.com/hstove/dynamojs_rails.git
-  revision: 2b3f015310a4e6e9096f85bb4e842c0b3c9b52da
-  specs:
-    dynamojs_rails (1.0.0)
-
-GIT
   remote: git://github.com/hstove/afterparty.git
   revision: 86354faf6cf65420e123981f27cc5afa11147520
   specs:
     afterparty (0.2.0)
       iconv
+
+GIT
+  remote: git://github.com/hstove/dynamojs_rails.git
+  revision: 2b3f015310a4e6e9096f85bb4e842c0b3c9b52da
+  specs:
+    dynamojs_rails (1.0.0)
 
 GIT
   remote: git://github.com/smartinez87/exception_notification.git
@@ -514,3 +514,6 @@ DEPENDENCIES
   webmock (< 1.16)
   will_paginate (~> 3.0)
   will_paginate-bootstrap
+
+BUNDLED WITH
+   1.10.6

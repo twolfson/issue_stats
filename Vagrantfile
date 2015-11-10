@@ -21,4 +21,6 @@ Vagrant.configure("2") do |config|
   # bundle install
   # install capybara-webkit dependencies
   # bundle install
+  # sudo apt-get install postgresql-9.3 postgresql-server-dev-9.3 (missing pg dependencies)
+  # bundle install
 end
