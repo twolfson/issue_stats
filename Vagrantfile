@@ -9,6 +9,9 @@ Vagrant.configure("2") do |config|
     v.memory = 2048
   end
 
+  # Open up server port
+ config.vm.network "forwarded_port", guest: 3006, host: 3006
+
   # sudo apt-get update
   # installed bundler too early
   # added rbenv dependencies
