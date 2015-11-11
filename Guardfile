@@ -1,4 +1,4 @@
-guard 'rails', port: 3006 do
+guard 'rails', host: '0.0.0.0', port: 3006 do
   watch('Gemfile.lock')
   watch(%r{^(config)/.*})
   watch(%r{^(lib)/.*})

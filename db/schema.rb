@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20140727223156) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "afterparty_jobs", force: true do |t|
+  create_table "afterparty_jobs", force: :cascade do |t|
     t.text     "job_dump"
     t.string   "queue"
     t.datetime "execute_at"
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20140727223156) do
     t.datetime "updated_at"
   end
 
-  create_table "reports", force: true do |t|
+  create_table "reports", force: :cascade do |t|
     t.string   "github_key"
     t.text     "basic_distribution"
     t.integer  "github_stars"
